@@ -26,7 +26,7 @@ function tabComponent(arrItem) {
 axios
 	.get('https://lambda-times-backend.herokuapp.com/topics')
 	.then((response) => {
-		console.log(response);
+		//console.log(response);
 		response.data.topics.map((item) => {
 			topicContainer.appendChild(tabComponent(item));
 		});
