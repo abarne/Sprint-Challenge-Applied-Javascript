@@ -63,7 +63,7 @@ function slideShow() {
 		} else {
 			currentIndex--;
 		}
-		let o = 1;
+
 		//set all images to no display
 		img1.style.display = 'none';
 		img2.style.display = 'none';
